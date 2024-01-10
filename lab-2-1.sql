@@ -1,5 +1,14 @@
 -- What teams in history have won more than 100 games in a single
 -- season, chronologically?
+-- SELECT ___ FROM ____
+-- WHERE ___
+-- AND _____
+-- ORDER BY _____
+-- LIMIT _____; 
+
+SELECT year, name, wins FROM teams
+WHERE wins > 100
+ORDER BY year;
 
 -- Expected result: 92 rows, ending with
 --
